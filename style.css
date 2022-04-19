@@ -1,0 +1,88 @@
+body {
+    font-family: 'David Libre', sans-serif;
+    margin: 0;
+    font-size: 20px;
+    padding-top: 61px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    z-index: 20;
+    background-color: #fcf8b0;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    list-style-type: none;
+    margin: 0 51px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#main {
+    text-align: center;
+    min-width: 400px
+}
+
+#main h1 {
+    font-family: 'Days One', sans-serif;
+    font-size: 48px;
+    margin-top: 51px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+#main h2 {
+    font-family: 'Days One', sans-serif;
+    margin-top: 51px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+#main p {
+    margin-top: 5px;
+    padding: 0;
+    width: 90vw;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+#main .tagline {
+    text-align: center;
+}
+
+#image {
+    max-width: 100%;
+    display: block;
+}
+
+#img-caption {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fcf8b0;
+    font-size: .8em;
+    text-align: center;
+}
+
+footer i {
+    color: red;
+}
+
+footer a {
+    text-decoration: underline;
+    color: black;
+}
